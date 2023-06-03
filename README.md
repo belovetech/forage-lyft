@@ -13,7 +13,7 @@ Lyft Rentals provides vehicles for riders who are looking to rent a vehicle for 
 
 ## Engine
 
-| engine            | criteria                              |
+| engine            | Criteria                              |
 | ----------------- | ------------------------------------- |
 | apulet Engine     | Once every 30,000 miles               |
 | Willoughby Engine | Once every 60,000 miles               |
@@ -21,14 +21,14 @@ Lyft Rentals provides vehicles for riders who are looking to rent a vehicle for 
 
 ## Battery
 
-| Battery          | criteria           |
+| Battery          | Criteria           |
 | ---------------- | ------------------ |
 | Spindler Battery | Once every 2 years |
 | Nubbin Battery   | Once every 4 years |
 
 ## Tire
 
-| Tire           | criteria                    |
+| Tire           | Criteria                    |
 | -------------- | --------------------------- |
 | Carrigan Tire  | One of the Tire wear => 0.9 |
 | Octoprime Tire | Sum of the tire wear >= 3.0 |
