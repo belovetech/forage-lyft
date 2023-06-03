@@ -43,6 +43,6 @@ Lyft Rentals provides vehicles for riders who are looking to rent a vehicle for 
 | Rorschach  | Capulet Engine    | Nubbin Battery   | Octoprime Tire |
 | Thovex     | Capulet Engine    | Nubbin Battery   | Carrigan Tire  |
 
-### System arcitecture after reafctoring
+### System architecture after reafctoring
 
 ![system architecture](UML.jpeg)
