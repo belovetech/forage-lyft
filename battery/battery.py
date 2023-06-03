@@ -4,5 +4,7 @@ from abc import ABC, abstractmethod
 class Battery(ABC):
 
     @abstractmethod
-    def need_service(self):
+    def needs_service(self):
+        """Interface!! it will be implmented by battery types
+        """
         pass

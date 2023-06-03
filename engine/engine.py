@@ -4,5 +4,7 @@ from abc import ABC, abstractmethod
 class Engine(ABC):
 
     @abstractmethod
-    def need_service(self):
+    def needs_service(self):
+        """ Will be implemented by the engine type classes
+        """
         pass
