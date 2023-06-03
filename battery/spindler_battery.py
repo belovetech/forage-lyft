@@ -3,7 +3,7 @@ from battery.battery import Battery
 SERVICE_DURATION = 4
 
 
-class NubbinBattery(Battery):
+class SpindlerBattery(Battery):
     def __init__(self, last_service, current_date):
         self.last_service = last_service
         self.current_date = current_date
