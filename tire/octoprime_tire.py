@@ -4,11 +4,8 @@ WEAR_THRESHOLD = 3
 
 
 class OctoprimeTire(Tire):
-    def __init__(self, wears) -> None:
-        self.wears = wears
+    def __init__(self, tire_wears) -> None:
+        self.tire_wears = tire_wears
 
     def needs_service(self):
-        _sum = 0
-        for i in range(len(self.wears)):
-            _sum += self.wears[i]
-        return _sum >= WEAR_THRESHOLD
+        return sum(self.tire_wears) >= WEAR_THRESHOLD
