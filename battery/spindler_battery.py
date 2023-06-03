@@ -1,6 +1,6 @@
 from battery.battery import Battery
 
-SERVICE_YEAR_DURATION = 2
+SERVICE_YEAR_DURATION = 3
 
 
 class SpindlerBattery(Battery):
