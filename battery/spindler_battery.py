@@ -1,6 +1,6 @@
 from battery.battery import Battery
 
-SERVICE_DURATION = 4
+SERVICE_YEAR_DURATION = 2
 
 
 class SpindlerBattery(Battery):
@@ -10,5 +10,5 @@ class SpindlerBattery(Battery):
 
     def needs_service(self):
         service_threshold_date = self.last_service_date.replace(
-            year=self.last_service_date.year + SERVICE_DURATION)
+            year=self.last_service_date.year + SERVICE_YEAR_DURATION)
         return service_threshold_date < self.current_date
